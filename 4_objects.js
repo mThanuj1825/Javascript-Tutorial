@@ -14,3 +14,11 @@ console.log(course["hours"]);
 
 let property = "hours";
 console.log(course[property]);
+
+course.registered = false;
+console.log(course.registered);
+
+delete course.registered;
+console.log(course.registered);
+
+console.log(course.hasOwnProperty("name"));
